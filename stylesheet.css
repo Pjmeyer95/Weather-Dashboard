@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .weather-data {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .weather-data div {
+    margin-right: 20px;
+  }
+  
+  .weather-data img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .forecast-data {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-data div {
+    flex-basis: 20%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .forecast-data img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .history-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .history-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
