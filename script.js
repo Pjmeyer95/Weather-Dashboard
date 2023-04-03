@@ -4,9 +4,9 @@ const API_KEY = "717be41e5c94602a91025296855d762a";
 // Selecting the necessary HTML elements
 const searchForm = document.querySelector("#search-form");
 const searchInput = document.querySelector("#search-input");
-const currentWeather = document.querySelector("#current-weather");
-const forecastWeather = document.querySelector("#forecast-weather");
-const searchHistory = document.querySelector("#search-history");
+const currentWeather = document.querySelector(".current-weather");
+const forecastWeather = document.querySelector(".forecast");
+const searchHistory = document.querySelector(".search-history");
 
 // Function to handle search form submission
 function handleSearchForm(event) {
